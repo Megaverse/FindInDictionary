@@ -1,0 +1,1 @@
+@py.exe E:\Experiments\Repos\FindInDictionary\defn.py %*
