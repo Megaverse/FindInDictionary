@@ -1,7 +1,7 @@
 # FindInDictionary
 This repository contains a program, written in Python. This program searches the meaning of a word from the web and give you the results. You now don't need to open a browser and go to some online dictionaries. Just install this program and type a keyword <code>defn</code> in the Command Prompt followed by the search term and you'll get your results.
 <br><br>
-Minimum Requirements:
+#Minimum Requirements:
 <ol>
   <li>OS: <b>Windows</b></li>
   <li><b>Python 3.x</b>. If you don't have Python, go to: <a href="http://www.python.org">www.python.org</a> to download it.</li>
@@ -9,7 +9,7 @@ Minimum Requirements:
 </ol>
 That's all you need!
 <br>
-How to install it:
+#How to install it:
 <ol>
   <li>Edit the <code>defn_batch.bat</code> - the path of defn.py is given <code>E:\Experiments\Repos\FindInDictionary\defn.py</code>. Replace it with the address of <code>defn.py</code> file on your computer.
   <li>Now you need to Edit <b>Environment Variable</b> - <code>PATH</code>. This will help you to run <b>defn.py</b> file via Command Prompt. To do this, follow the given steps:
