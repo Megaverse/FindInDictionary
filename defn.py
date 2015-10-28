@@ -23,12 +23,11 @@ def findMeaning(word):
     # Parse it using BeautifulSoup4
     soup = bs4.BeautifulSoup(res.text, 'html.parser')
 
-    # TODO: Find required data
+    # Find required data
     sections = soup.select('section.ce-spot')
-    # origin = soup.select('span.dbox-roman')
 
-    # TODO: Present it.
-    print('Searching for your word(s): %s' % word)         # Looking to five word(s) feature
+    # Present it.
+    print('Searching for your word(s): %s' % word)
 
     for i in range(len(sections)):
         header = sections[i].select('header span')[0].getText()
@@ -41,11 +40,10 @@ def findMeaning(word):
 
         print('\n')
 
-    # print('\nOrigin of word - \'%s\': %s' % (word, origin[0].getText()))
     print('\n')
 
     print('That\'s all for %s' % word)
 
 word = str(' '.join(sys.argv[1:]))
 
-findMeaning('pokemon')
+findMeaning(word)
